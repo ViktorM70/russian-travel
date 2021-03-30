@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 28px auto;
+  background-color: 2a2c2f;
+  max-width: 1184px;
+  width: 90%;
+  height: 52px;
+  border: 1px solid red;
+}

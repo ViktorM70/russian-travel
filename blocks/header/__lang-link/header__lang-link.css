@@ -1,0 +1,7 @@
+.header__lang-link {
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+  border: 1px solid red;
+  color: #ffffff;
+}
