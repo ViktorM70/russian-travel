@@ -4,16 +4,40 @@
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 900;
-  width: 720px;
+  max-width: 720px;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+	.lead__title {
+    max-width: 720px;
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+	.lead__title {
+    max-width: 500px;
+    font-size: 54px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+	.lead__title {
+    max-width: 410px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
 @media screen and (max-width: 350px) {
 	.lead__title {
-    width: 288px;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

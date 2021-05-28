@@ -1,20 +1,21 @@
 .lead {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  margin: 56px auto;
+  flex-wrap: wrap;
+  margin: 56px auto 0;
   max-width: 984px;
-  max-height: 1005px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
 	.lead {
-      max-width: 928px;
-    }
+    max-width: 928px;
+    margin-top: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
 	.lead {
-      width: 100%;
-    }
+    width: 100%;
+  }
 }
