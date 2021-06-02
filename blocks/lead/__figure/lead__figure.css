@@ -4,13 +4,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__figure {
+  .lead__figure {
     margin: 56px 0 0;
   }
 }
   
-  @media screen and (max-width: 350px) {
-    .lead__figure {
+@media screen and (max-width: 350px) {
+  .lead__figure {
     margin: 40px 0 0;
   }
 }

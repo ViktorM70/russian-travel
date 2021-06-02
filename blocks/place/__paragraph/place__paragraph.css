@@ -5,6 +5,7 @@
   line-height: 163%;
   color: #ffffff;
   margin: 0;
+  padding: 0;
 }
 
 .place__paragraph:nth-of-type(2n) {
@@ -17,9 +18,14 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}
+
 @media screen and (max-width: 350px) {
   .place__paragraph {
     max-width: 288px;
-    margin: 32px auto 0;
   }
 }
